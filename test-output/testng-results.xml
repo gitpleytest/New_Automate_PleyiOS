@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Pleygo" duration-ms="974244" started-at="2015-01-30T11:01:31Z" finished-at="2015-01-30T11:17:45Z">
+    <groups>
+    </groups>
+    <test name="Sign Up" duration-ms="740835" started-at="2015-01-30T11:01:31Z" finished-at="2015-01-30T11:13:52Z">
+      <class name="TestCases.TestSignup">
+        <test-method status="PASS" signature="Testsignup1()[pri:0, instance:TestCases.TestSignup@4839e5b5]" name="Testsignup1" duration-ms="740813" started-at="2015-01-30T16:31:31Z" finished-at="2015-01-30T16:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testsignup1 -->
+      </class> <!-- TestCases.TestSignup -->
+    </test> <!-- Sign Up -->
+    <test name="Login" duration-ms="233386" started-at="2015-01-30T11:13:52Z" finished-at="2015-01-30T11:17:45Z">
+      <class name="TestCases.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.TestLogin@5f326484]" name="setup" is-config="true" duration-ms="128126" started-at="2015-01-30T16:29:23Z" finished-at="2015-01-30T16:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestCases.TestLogin@5f326484]" name="Login" duration-ms="233380" started-at="2015-01-30T16:43:52Z" finished-at="2015-01-30T16:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TestLogin@5f326484]" name="tearDown" is-config="true" duration-ms="5751" started-at="2015-01-30T16:47:45Z" finished-at="2015-01-30T16:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestLogin -->
+    </test> <!-- Login -->
+  </suite> <!-- Pleygo -->
+</testng-results>

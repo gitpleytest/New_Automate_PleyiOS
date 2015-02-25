@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pleygo">
+
+
+<test name="$25 Gift Card test">
+    <classes>
+        <class name="TestCases.TestGift_25" ></class>  
+    </classes>
+</test>
+
+<test name="$50 Gift Card test">
+    <classes>
+        <class name="TestCases.TestGift_50" ></class>  
+    </classes>
+</test> 
+
+<test name="Sign Up">
+    <classes>
+        <class name="TestCases.TestSignup" ></class>  
+    </classes>
+</test>
+
+<test name="Login">
+    <classes>
+        <class name="TestCases.TestLogin" ></class>  
+    </classes>
+</test>
+
+ <test name="Any Amount Gift Card test">
+    <classes>
+        <class name="TestCases.TestGift_AnyAmount" ></class>  
+    </classes>
+</test> 
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pleygo]">
+  <test name="Sign Up(failed)">
+    <classes>
+      <class name="TestCases.TestLogin">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestLogin -->
+      <class name="TestCases.TestSignup">
+        <methods>
+          <include name="Testsignup1"/>
+        </methods>
+      </class> <!-- TestCases.TestSignup -->
+    </classes>
+  </test> <!-- Sign Up(failed) -->
+</suite> <!-- Failed suite [Pleygo] -->
